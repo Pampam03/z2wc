@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Z2WC Gym | Libon's Premier Fitness Destination — Zone 2, Albay</title>
+<meta name="description" content="Z2WC Gym in Zone 2, Libon, Albay. ₱40 day pass or ₱500/month unlimited access. Strength coaching, group training and personal programs. 5-star rated, open daily until 10 PM. Call 0967 247 4952." />
+<meta name="keywords" content="gym Libon, fitness Albay, personal trainer Libon, gym near me Albay, Z2WC Gym, strength training Bicol" />
+<link rel="canonical" href="https://z2wcgym.com/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Z2WC Gym | Libon's Premier Fitness Destination" />
+<meta property="og:description" content="Train like a champion in Libon. Expert coaching, premium equipment, and a community that pushes you forward." />
+<meta property="og:image" content="images/hero-community.jpg" />
+<meta name="theme-color" content="#0A1633" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "additionalType": "https://schema.org/ExerciseGym",
+  "name": "Z2WC Gym",
+  "description": "Premium gym, strength coaching and group fitness training in Zone 2, Libon, Albay.",
+  "image": "images/hero-community.jpg",
+  "telephone": "+639672474952",
+  "email": "z2wcgym@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Zone 2",
+    "addressLocality": "Libon",
+    "addressRegion": "Albay",
+    "postalCode": "4507",
+    "addressCountry": "PH"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "06:00",
+    "closes": "22:00"
+  }],
+  "priceRange": "₱40 - ₱5,000",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "bestRating": "5",
+    "reviewCount": "27"
+  }
+}
+</script>
+
+<style>
+/* ═══════════════ TOKENS ═══════════════ */
+:root{
+  --navy:#0A1633;
+  --navy-2:#142a4a;
+  --gold:#C9A227;
+  --gold-hi:#e0bc45;
+  --gold-lo:#a8861c;
+  --ink:#1a1a1a;
+  --muted:#5a6274;
+  --bg:#faf8f5;
+  --white:#ffffff;
+  --line:#e8e3da;
+  --shadow-sm:0 4px 16px rgba(10,22,51,.06);
+  --shadow-md:0 14px 40px rgba(10,22,51,.10);
+  --shadow-lg:0 28px 70px rgba(10,22,51,.16);
+  --r:16px;
+  --max:1200px;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  background:var(--bg);color:var(--ink);
+  line-height:1.65;overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+.container{max-width:var(--max);margin:0 auto;padding:0 24px}
+
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:700;line-height:1.15;letter-spacing:-.01em}
+
+/* ═══════════════ SHARED BITS ═══════════════ */
+.eyebrow{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:14px;
+}
+.eyebrow.on-dark{color:var(--gold-hi)}
+
+.section-head{text-align:center;max-width:680px;margin:0 auto 56px}
+.section-head h2{font-size:clamp(1.9rem,4.2vw,2.7rem);color:var(--navy);margin-bottom:14px}
+.section-head p{color:var(--muted);font-size:1.05rem}
+
+.rule{
+  width:64px;height:3px;border-radius:2px;
+  background:linear-gradient(90deg,var(--gold),var(--gold-hi));
+  margin:0 auto 22px;
+}
+.rule.left{margin-left:0}
+
+/* ═══════════════ BUTTONS ═══════════════ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  font-family:'Inter',sans-serif;font-weight:600;font-size:.97rem;
+  padding:14px 34px;border-radius:100px;border:2px solid transparent;
+  text-decoration:none;cursor:pointer;letter-spacing:.01em;
+  transition:transform .25s cubic-bezier(.2,.8,.3,1),box-shadow .25s,background .25s,color .25s,border-color .25s;
+}
+.btn-gold{background:var(--gold);color:#fff;box-shadow:0 8px 24px rgba(201,162,39,.32)}
+.btn-gold:hover{background:var(--gold-lo);transform:translateY(-2px);box-shadow:0 14px 32px rgba(201,162,39,.42)}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.btn-ghost:hover{background:#fff;color:var(--navy);border-color:#fff;transform:translateY(-2px)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-2);transform:translateY(-2px)}
+.btn-line{background:transparent;color:var(--navy);border-color:var(--navy)}
+.btn-line:hover{background:var(--navy);color:#fff}
+.btn-block{width:100%}
+
+/* ═══════════════ HEADER ═══════════════ */
+header{
+  position:sticky;top:0;z-index:999;
+  background:rgba(10,22,51,.86);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(201,162,39,.18);
+  transition:background .3s,box-shadow .3s;
+}
+header.scrolled{background:rgba(10,22,51,.97);box-shadow:0 6px 30px rgba(0,0,0,.28)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:15px 0;flex-wrap:wrap}
+
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none}
+.logo-mark{
+  width:42px;height:42px;flex:0 0 42px;border-radius:11px;
+  background:linear-gradient(140deg,var(--gold),var(--gold-lo));
+  display:grid;place-items:center;
+  font-family:'Playfair Display',serif;font-weight:800;font-size:1.02rem;color:var(--navy);
+  box-shadow:0 4px 14px rgba(201,162,39,.4);
+}
+.logo-text{display:flex;flex-direction:column;line-height:1.05}
+.logo-text .name{font-family:'Playfair Display',serif;font-weight:700;font-size:1.32rem;color:#fff;letter-spacing:.5px}
+.logo-text .name em{color:var(--gold);font-style:normal}
+.logo-text .sub{font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.5);font-weight:500}
+
+.desk-nav{display:flex;align-items:center;gap:30px}
+.desk-nav a{
+  position:relative;color:rgba(255,255,255,.82);text-decoration:none;
+  font-weight:500;font-size:.94rem;padding:4px 0;transition:color .2s;
+}
+.desk-nav a::after{
+  content:'';position:absolute;left:0;bottom:0;width:0;height:2px;
+  background:var(--gold);transition:width .28s;
+}
+.desk-nav a:hover{color:#fff}
+.desk-nav a:hover::after{width:100%}
+.desk-nav .nav-cta{
+  background:var(--gold);color:#fff;padding:11px 26px;border-radius:100px;
+  font-weight:600;box-shadow:0 6px 18px rgba(201,162,39,.34);
+}
+.desk-nav .nav-cta::after{display:none}
+.desk-nav .nav-cta:hover{background:var(--gold-lo);color:#fff;transform:translateY(-1px)}
+
+.hamburger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.hamburger span{display:block;width:26px;height:2.5px;background:#fff;border-radius:3px;transition:.3s}
+.hamburger.active span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.hamburger.active span:nth-child(2){opacity:0}
+.hamburger.active span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+
+.mobile-nav{
+  display:none;width:100%;flex-direction:column;gap:2px;
+  padding:14px 0 8px;margin-top:12px;border-top:1px solid rgba(201,162,39,.16);
+}
+.mobile-nav.open{display:flex;animation:slideDown .3s ease}
+@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+.mobile-nav a{
+  color:rgba(255,255,255,.88);text-decoration:none;font-weight:500;
+  font-size:1.02rem;padding:13px 4px;border-bottom:1px solid rgba(255,255,255,.06);
+}
+.mobile-nav a:last-child{
+  border:0;margin-top:12px;text-align:center;background:var(--gold);
+  color:#fff;border-radius:100px;font-weight:600;padding:14px;
+}
+
+/* ═══════════════ HERO ═══════════════ */
+.hero{position:relative;min-height:88vh;display:flex;align-items:center;overflow:hidden;background:var(--navy)}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.hero-bg::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(105deg,rgba(10,22,51,.94) 0%,rgba(10,22,51,.82) 46%,rgba(10,22,51,.55) 100%);
+}
+.hero .container{position:relative;z-index:2;padding-top:88px;padding-bottom:88px}
+.hero-copy{max-width:720px}
+.hero h1{
+  font-size:clamp(2.3rem,6.4vw,4.15rem);color:#fff;
+  margin-bottom:20px;text-shadow:0 2px 30px rgba(0,0,0,.35);
+}
+.hero h1 .gold{
+  color:var(--gold);position:relative;display:inline-block;
+}
+.hero-sub{
+  font-size:clamp(1rem,2.1vw,1.19rem);color:rgba(255,255,255,.86);
+  font-weight:300;max-width:590px;margin-bottom:34px;
+}
+.hero-buttons{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:44px}
+
+.hero-strip{display:flex;flex-wrap:wrap;gap:14px 40px;padding-top:26px;border-top:1px solid rgba(255,255,255,.16)}
+.hero-strip .item{display:flex;flex-direction:column}
+.hero-strip .num{font-family:'Playfair Display',serif;font-size:1.65rem;font-weight:700;color:var(--gold)}
+.hero-strip .lbl{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6);font-weight:500}
+
+/* ═══════════════ TRUST BAR ═══════════════ */
+.trustbar{background:var(--navy-2);border-top:1px solid rgba(201,162,39,.18);padding:18px 0}
+.trustbar-inner{
+  display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
+  gap:12px 42px;text-align:center;
+}
+.trustbar span{
+  color:rgba(255,255,255,.78);font-size:.87rem;font-weight:500;
+  display:inline-flex;align-items:center;gap:8px;letter-spacing:.02em;
+}
+.trustbar .dot{color:var(--gold);font-size:1.05rem;line-height:1}
+
+/* ═══════════════ INTRO ═══════════════ */
+.intro{padding:96px 0;background:var(--white)}
+.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+.intro h2{font-size:clamp(1.85rem,4vw,2.6rem);color:var(--navy);margin-bottom:20px}
+.intro p{color:#3d4353;font-size:1.06rem;margin-bottom:16px}
+.intro p strong{color:var(--navy);font-weight:600}
+.signature{margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+.signature .sig-name{font-family:'Playfair Display',serif;font-style:italic;font-size:1.72rem;color:var(--gold);line-height:1.2}
+.signature .sig-role{font-size:.8rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-top:6px;font-weight:500}
+
+.intro-media{position:relative}
+.intro-media .shot{
+  border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-lg);
+  aspect-ratio:4/5;background:var(--navy);
+}
+.intro-media .shot img{width:100%;height:100%;object-fit:cover}
+.intro-media .badge{
+  position:absolute;left:-22px;bottom:34px;
+  background:var(--gold);color:#fff;border-radius:14px;
+  padding:18px 24px;box-shadow:var(--shadow-md);max-width:210px;
+}
+.intro-media .badge .big{font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:700;line-height:1}
+.intro-media .badge .small{font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;margin-top:4px;opacity:.92;font-weight:600}
+
+/* ═══════════════ SERVICES ═══════════════ */
+.services{padding:96px 0;background:var(--bg)}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(258px,1fr));gap:26px}
+.service-card{
+  background:var(--white);border-radius:var(--r);overflow:hidden;
+  box-shadow:var(--shadow-sm);border:1px solid var(--line);
+  display:flex;flex-direction:column;
+  transition:transform .3s cubic-bezier(.2,.8,.3,1),box-shadow .3s;
+}
+.service-card:hover{transform:translateY(-7px);box-shadow:var(--shadow-md)}
+.service-thumb{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--navy)}
+.service-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .55s ease}
+.service-card:hover .service-thumb img{transform:scale(1.06)}
+.service-thumb::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(10,22,51,.55))}
+.service-num{
+  position:absolute;top:14px;left:14px;z-index:2;
+  width:34px;height:34px;border-radius:9px;background:var(--gold);
+  display:grid;place-items:center;color:#fff;font-weight:700;font-size:.88rem;
+  box-shadow:0 4px 12px rgba(0,0,0,.25);
+}
+.service-body{padding:26px 24px 28px;display:flex;flex-direction:column;flex:1}
+.service-body h3{font-size:1.31rem;color:var(--navy);margin-bottom:10px}
+.service-body>p{color:var(--muted);font-size:.95rem;margin-bottom:16px}
+.service-body ul{list-style:none;margin-top:auto}
+.service-body li{
+  position:relative;padding:6px 0 6px 24px;font-size:.9rem;color:#3d4353;
+}
+.service-body li::before{
+  content:'';position:absolute;left:0;top:14px;
+  width:7px;height:7px;border-radius:2px;transform:rotate(45deg);
+  background:var(--gold);
+}
+
+/* ═══════════════ WHY US ═══════════════ */
+.why{padding:96px 0;background:var(--white)}
+.why-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:60px;align-items:center}
+.why-media{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:14px}
+.why-media figure{border-radius:14px;overflow:hidden;box-shadow:var(--shadow-md);background:var(--navy)}
+.why-media figure img{width:100%;height:100%;object-fit:cover}
+.why-media figure:nth-child(1){grid-column:1/-1;aspect-ratio:16/9}
+.why-media figure:nth-child(2),.why-media figure:nth-child(3){aspect-ratio:1/1}
+
+.why h2{font-size:clamp(1.85rem,4vw,2.6rem);color:var(--navy);margin-bottom:16px}
+.why>.container>.why-grid p.lead{color:var(--muted);font-size:1.05rem;margin-bottom:28px}
+.why-list{list-style:none;display:grid;gap:14px}
+.why-list li{
+  display:flex;gap:14px;align-items:flex-start;
+  background:var(--bg);border-left:3px solid var(--gold);
+  border-radius:0 12px 12px 0;padding:16px 20px;
+}
+.why-list .ic{
+  flex:0 0 26px;width:26px;height:26px;border-radius:50%;
+  background:var(--gold);color:#fff;display:grid;place-items:center;
+  font-size:.78rem;font-weight:700;margin-top:2px;
+}
+.why-list .txt strong{display:block;color:var(--navy);font-weight:600;font-size:1rem;margin-bottom:2px}
+.why-list .txt span{color:var(--muted);font-size:.9rem}
+
+/* ═══════════════ SOCIAL PROOF ═══════════════ */
+.proof{position:relative;padding:100px 0;background:var(--navy);color:#fff;overflow:hidden;text-align:center}
+.proof-bg{position:absolute;inset:0;z-index:0;opacity:.2}
+.proof-bg img{width:100%;height:100%;object-fit:cover}
+.proof::before{
+  content:'';position:absolute;inset:0;z-index:1;
+  background:linear-gradient(180deg,rgba(10,22,51,.93),rgba(10,22,51,.88));
+}
+.proof .container{position:relative;z-index:2}
+.stars{font-size:1.7rem;letter-spacing:9px;color:var(--gold);margin-bottom:10px}
+.rating-line{font-size:.86rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.62);margin-bottom:38px;font-weight:500}
+.quote{
+  max-width:790px;margin:0 auto;position:relative;
+  font-family:'Playfair Display',serif;font-style:italic;font-weight:600;
+  font-size:clamp(1.15rem,2.7vw,1.62rem);line-height:1.55;color:#f4f1ea;
+}
+.quote::before{
+  content:'\201C';position:absolute;top:-46px;left:50%;transform:translateX(-50%);
+  font-family:'Playfair Display',serif;font-size:5.2rem;color:var(--gold);opacity:.42;line-height:1;
+}
+.quote-author{
+  margin-top:26px;display:inline-flex;flex-direction:column;align-items:center;gap:3px;
+}
+.quote-author .nm{font-family:'Inter',sans-serif;font-style:normal;font-weight:700;color:var(--gold);font-size:1rem;letter-spacing:.02em}
+.quote-author .rl{font-family:'Inter',sans-serif;font-style:normal;font-size:.8rem;color:rgba(255,255,255,.55);letter-spacing:.08em;text-transform:uppercase}
+
+/* ═══════════════ PRICING ═══════════════ */
+.pricing{padding:96px 0;background:var(--bg)}
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));gap:26px;max-width:1040px;margin:0 auto;align-items:start}
+
+.daypass{
+  max-width:1040px;margin:0 auto 30px;
+  display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px;
+  background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 100%);
+  border:1px solid rgba(201,162,39,.34);border-radius:var(--r);
+  padding:26px 30px;box-shadow:var(--shadow-md);
+}
+.daypass-left{display:flex;flex-direction:column;gap:3px;flex:0 0 auto}
+.dp-label{font-size:.7rem;letter-spacing:.17em;text-transform:uppercase;color:var(--gold-hi);font-weight:700}
+.dp-title{font-family:'Playfair Display',serif;font-size:1.45rem;font-weight:700;color:#fff;line-height:1.2}
+.dp-copy{flex:1 1 240px;color:rgba(255,255,255,.72);font-size:.93rem;margin:0}
+.daypass .btn{flex:0 0 auto}
+.plan{
+  background:var(--white);border:1px solid var(--line);border-radius:var(--r);
+  padding:36px 28px 30px;text-align:center;box-shadow:var(--shadow-sm);
+  transition:transform .3s cubic-bezier(.2,.8,.3,1),box-shadow .3s;
+  display:flex;flex-direction:column;height:100%;
+}
+.plan:hover{transform:translateY(-7px);box-shadow:var(--shadow-md)}
+.plan.popular{
+  border:2px solid var(--gold);background:#fffdf6;
+  box-shadow:0 22px 56px rgba(201,162,39,.2);
+}
+.plan-badge{
+  display:inline-block;background:var(--gold);color:#fff;
+  font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  padding:6px 20px;border-radius:100px;margin-bottom:16px;
+  box-shadow:0 5px 14px rgba(201,162,39,.36);
+}
+.plan h3{font-size:1.42rem;color:var(--navy);margin-bottom:4px}
+.plan .tag{font-size:.85rem;color:var(--muted);margin-bottom:16px}
+.price{display:flex;align-items:baseline;justify-content:center;gap:5px;margin-bottom:6px}
+.price .amt{font-family:'Playfair Display',serif;font-size:2.9rem;font-weight:700;color:var(--navy);line-height:1}
+.price .per{font-size:.94rem;color:var(--muted);font-weight:500}
+.plan .save{font-size:.79rem;color:var(--gold);font-weight:600;letter-spacing:.03em;margin-bottom:22px;min-height:19px}
+.plan ul{list-style:none;text-align:left;margin:0 auto 26px;max-width:230px;width:100%;flex:1}
+.plan li{position:relative;padding:7px 0 7px 26px;font-size:.93rem;color:#3d4353}
+.plan li::before{content:'✓';position:absolute;left:0;color:var(--gold);font-weight:800;font-size:.95rem}
+.pricing-note{text-align:center;color:var(--muted);font-size:.9rem;margin-top:34px}
+.pricing-note strong{color:var(--navy)}
+
+/* ═══════════════ CONTACT ═══════════════ */
+.contact{padding:96px 0;background:var(--white)}
+.contact-wrap{
+  display:grid;grid-template-columns:1.08fr .92fr;gap:0;
+  max-width:1060px;margin:0 auto;border-radius:20px;overflow:hidden;
+  box-shadow:var(--shadow-lg);border:1px solid var(--line);
+}
+.form-side{padding:44px 40px;background:var(--white)}
+.form-side h3{font-size:1.5rem;color:var(--navy);margin-bottom:6px}
+.form-side .hint{color:var(--muted);font-size:.92rem;margin-bottom:26px}
+.field{margin-bottom:17px}
+.field label{display:block;font-weight:600;font-size:.82rem;color:var(--navy);margin-bottom:6px;letter-spacing:.02em}
+.field input,.field select,.field textarea{
+  width:100%;padding:13px 15px;border:1.5px solid var(--line);border-radius:10px;
+  font-family:'Inter',sans-serif;font-size:.95rem;background:var(--bg);color:var(--ink);
+  transition:border-color .2s,box-shadow .2s,background .2s;
+}
+.field input::placeholder,.field textarea::placeholder{color:#a4abb8}
+.field input:focus,.field select:focus,.field textarea:focus{
+  outline:none;border-color:var(--gold);background:#fff;
+  box-shadow:0 0 0 4px rgba(201,162,39,.13);
+}
+.field textarea{min-height:104px;resize:vertical}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form-fine{font-size:.79rem;color:var(--muted);text-align:center;margin-top:13px}
+
+.info-side{
+  padding:44px 38px;color:#fff;
+  background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 100%);
+  display:flex;flex-direction:column;justify-content:center;gap:26px;
+}
+.info-side h3{font-size:1.4rem;color:#fff;margin-bottom:2px}
+.call-now{
+  display:block;text-decoration:none;background:rgba(201,162,39,.14);
+  border:1px solid rgba(201,162,39,.42);border-radius:14px;padding:18px 20px;
+  transition:background .25s,transform .25s;
+}
+.call-now:hover{background:rgba(201,162,39,.24);transform:translateY(-2px)}
+.call-now .cl{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-hi);font-weight:600}
+.call-now .cn{font-family:'Playfair Display',serif;font-size:1.85rem;font-weight:700;color:#fff;line-height:1.2;margin-top:3px}
+
+.info-list{display:grid;gap:18px}
+.info-item{display:flex;gap:14px;align-items:flex-start}
+.info-item .ic{
+  flex:0 0 36px;width:36px;height:36px;border-radius:10px;
+  background:rgba(255,255,255,.09);display:grid;place-items:center;font-size:1rem;
+}
+.info-item .t{font-weight:600;font-size:.94rem;color:#fff;margin-bottom:1px}
+.info-item .d{font-size:.89rem;color:rgba(255,255,255,.65);line-height:1.5}
+.info-item .d a{color:rgba(255,255,255,.65);text-decoration:none;border-bottom:1px solid rgba(201,162,39,.4)}
+.info-item .d a:hover{color:var(--gold-hi)}
+.walkin{
+  background:rgba(255,255,255,.07);border-radius:12px;padding:15px 18px;
+  font-size:.9rem;color:rgba(255,255,255,.82);border-left:3px solid var(--gold);
+}
+.walkin strong{color:var(--gold-hi)}
+
+/* ═══════════════ FOOTER ═══════════════ */
+footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;border-top:1px solid rgba(201,162,39,.16)}
+.foot-top{
+  display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;
+  gap:26px;padding-bottom:28px;border-bottom:1px solid rgba(255,255,255,.09);
+}
+.foot-links{display:flex;flex-wrap:wrap;gap:26px}
+.foot-links a{color:rgba(255,255,255,.62);text-decoration:none;font-size:.92rem;transition:color .2s}
+.foot-links a:hover{color:var(--gold)}
+.foot-bottom{
+  display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;
+  gap:12px;padding-top:24px;font-size:.86rem;
+}
+.credit{font-size:.85rem;color:rgba(255,255,255,.42)}
+.credit a{color:var(--gold);text-decoration:none}
+.credit a:hover{text-decoration:underline}
+
+/* ═══════════════ MOTION ═══════════════ */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .85s cubic-bezier(.2,.8,.3,1),transform .85s cubic-bezier(.2,.8,.3,1)}
+.reveal.in{opacity:1;transform:none}
+.reveal.d1{transition-delay:.09s}
+.reveal.d2{transition-delay:.18s}
+.reveal.d3{transition-delay:.27s}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms !important;transition-duration:.001ms !important}
+  .reveal{opacity:1 !important;transform:none !important}
+}
+
+/* ═══════════════ RESPONSIVE ═══════════════ */
+@media (max-width:980px){
+  .intro-grid,.why-grid,.contact-wrap{grid-template-columns:1fr;gap:44px}
+  .contact-wrap{gap:0}
+  .intro-media{order:-1;max-width:460px;margin:0 auto}
+  .intro-media .badge{left:12px}
+  .why-media{max-width:520px;margin:0 auto}
+}
+@media (max-width:860px){
+  .desk-nav{display:none}
+  .hamburger{display:flex}
+  .hero{min-height:auto}
+  .hero .container{padding-top:64px;padding-bottom:64px}
+}
+@media (max-width:640px){
+  .container{padding:0 18px}
+  .intro,.services,.why,.pricing,.contact{padding:66px 0}
+  .proof{padding:74px 0}
+  .section-head{margin-bottom:38px}
+  .form-side,.info-side{padding:34px 24px}
+  .hero-buttons .btn{width:100%}
+  .hero-strip{gap:16px 26px}
+  .hero-strip .num{font-size:1.4rem}
+  .field-row{grid-template-columns:1fr}
+  .daypass{padding:24px 22px;text-align:center;flex-direction:column}
+  .daypass-left{align-items:center}
+  .daypass .btn{width:100%}
+  .foot-top,.foot-bottom{flex-direction:column;text-align:center}
+  .foot-links{justify-content:center;gap:18px}
+  .intro-media .badge{left:auto;right:12px;bottom:14px;padding:14px 18px}
+  .quote::before{top:-38px;font-size:4rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════ HEADER ══════════ -->
+<header id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="logo" aria-label="Z2WC Gym home">
+      <span class="logo-mark">Z2</span>
+      <span class="logo-text">
+        <span class="name">Z2<em>WC</em></span>
+        <span class="sub">Gym · Libon</span>
+      </span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="desk-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="nav-cta">Book Free Trial</a>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact">Book Free Trial</a>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <img src="images/hero-community.jpg" alt="Members training together at Z2WC Gym in Libon, Albay"
+         onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1800&q=80';">
+  </div>
+  <div class="container">
+    <div class="hero-copy">
+      <span class="eyebrow on-dark">Zone 2 · Libon · Albay</span>
+      <h1>Train Like a <span class="gold">Champion</span> in Libon</h1>
+      <p class="hero-sub">Premium equipment, coaching that actually pays attention, and a community that shows up for you — six days a week, until 10 PM.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-gold">Claim Your Free Trial</a>
+        <a href="#pricing" class="btn btn-ghost">View Membership Rates</a>
+      </div>
+      <div class="hero-strip">
+        <div class="item"><span class="num">5.0★</span><span class="lbl">Member Rating</span></div>
+        <div class="item"><span class="num">200+</span><span class="lbl">Members Trained</span></div>
+        <div class="item"><span class="num">10 PM</span><span class="lbl">Open Till Late</span></div>
+        <div class="item"><span class="num">₱40</span><span class="lbl">Per Day Walk-In</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ TRUST BAR ══════════ -->
+<div class="trustbar">
+  <div class="container trustbar-inner">
+    <span><i class="dot">◆</i> Certified Coaches On Site</span>
+    <span><i class="dot">◆</i> Walk-Ins Always Welcome</span>
+    <span><i class="dot">◆</i> Student &amp; Group Rates</span>
+    <span><i class="dot">◆</i> No Lock-In Contracts</span>
+  </div>
+</div>
+
+<!-- ══════════ INTRO / PAIN POINT ══════════ -->
+<section class="intro" id="about">
+  <div class="container intro-grid">
+    <div class="reveal">
+      <span class="eyebrow">Welcome to Z2WC</span>
+      <div class="rule left"></div>
+      <h2>Nobody Starts Strong. Everybody Starts Here.</h2>
+      <p>Walking into a gym for the first time is hard. You wonder if you'll look out of place, whether you'll use the machines wrong, whether anyone will actually help. We built Z2WC so that none of that is your problem.</p>
+      <p>From your very first session, a coach walks the floor with you — showing you the movements, setting your weights, and making sure you leave knowing exactly what to do next time. <strong>No judgment. No shortcuts. Just honest work and people who want you to win.</strong></p>
+      <p>Whether you're a student chasing your first pull-up, a parent getting your energy back, or an athlete pushing for a new PR, there's a place for you on our floor.</p>
+      <div class="signature">
+        <div class="sig-name">The Z2WC Team</div>
+        <div class="sig-role">Coaches &amp; Founders · Libon, Albay</div>
+      </div>
+    </div>
+
+    <div class="intro-media reveal d1">
+      <div class="shot">
+        <img src="images/coach-talk.jpg" alt="Head coach addressing members during an evening session at Z2WC Gym"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1000&q=80';">
+      </div>
+      <div class="badge">
+        <div class="big">6 Days</div>
+        <div class="small">A Week, Coached</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SERVICES ══════════ -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What We Offer</span>
+      <div class="rule"></div>
+      <h2>Built For Every Kind of Goal</h2>
+      <p>Four ways to train at Z2WC — pick the one that fits your schedule, your budget, and how much guidance you want.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-thumb">
+          <span class="service-num">01</span>
+          <img src="images/facility-rack.jpg" alt="Barbells, plates and squat rack at Z2WC Gym"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80';">
+        </div>
+        <div class="service-body">
+          <h3>Strength &amp; Conditioning</h3>
+          <p>Build real, usable power with programs written around your body and your goals. Every lift is coached, loaded and progressed properly.</p>
+          <ul>
+            <li>Full barbell, dumbbell &amp; cable setup</li>
+            <li>Progressive strength programming</li>
+            <li>Form checks on every major lift</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-card reveal d1">
+        <div class="service-thumb">
+          <span class="service-num">02</span>
+          <img src="images/orientation.jpg" alt="Group training session with members at Z2WC Gym"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80';">
+        </div>
+        <div class="service-body">
+          <h3>Group Training</h3>
+          <p>High-energy sessions that make the hard work fly by. Circuits, conditioning and partner work built for all levels in one room.</p>
+          <ul>
+            <li>Daily class schedule, morning &amp; evening</li>
+            <li>Beginner-friendly — always scalable</li>
+            <li>Special rates for student groups</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-card reveal d2">
+        <div class="service-thumb">
+          <span class="service-num">03</span>
+          <img src="images/facility-cable.jpg" alt="Cable crossover machine and adjustable bench at Z2WC Gym"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1534258936925-c58bed479fcb?auto=format&fit=crop&w=900&q=80';">
+        </div>
+        <div class="service-body">
+          <h3>Personal Coaching</h3>
+          <p>One coach, one plan, one focus — you. Get a program written for your body, your schedule and your target, then get held to it.</p>
+          <ul>
+            <li>Custom training plan &amp; nutrition guide</li>
+            <li>Weekly progress tracking</li>
+            <li>Real accountability between sessions</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="service-card reveal d3">
+        <div class="service-thumb">
+          <span class="service-num">04</span>
+          <img src="images/facility-benches.jpg" alt="Dumbbell rack, mirrors and adjustable benches at Z2WC Gym"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1596357395217-80de13130e92?auto=format&fit=crop&w=900&q=80';">
+        </div>
+        <div class="service-body">
+          <h3>Open Gym Access</h3>
+          <p>Know what you're doing already? Come in and work. Full equipment access, open floor, and a coach nearby whenever you need one.</p>
+          <ul>
+            <li>Complete dumbbell rack &amp; kettlebells</li>
+            <li>Open-air training floor, never crowded</li>
+            <li>Open daily until 10 PM</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ WHY US ══════════ -->
+<section class="why" id="why">
+  <div class="container why-grid">
+    <div class="why-media reveal">
+      <figure>
+        <img src="images/hero-community.jpg" alt="Busy training session on the Z2WC Gym floor"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1000&q=80';">
+      </figure>
+      <figure>
+        <img src="images/facility-benches.jpg" alt="Clean bench and dumbbell area at Z2WC Gym"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=700&q=80';">
+      </figure>
+      <figure>
+        <img src="images/amino-supplements.jpg" alt="Amino acid supplement packs given to Z2WC members"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1593095948071-474c5cc2989d?auto=format&fit=crop&w=700&q=80';">
+      </figure>
+    </div>
+
+    <div class="reveal d1">
+      <span class="eyebrow">Why Z2WC</span>
+      <div class="rule left"></div>
+      <h2>More Than a Gym. A Launchpad.</h2>
+      <p class="lead">Plenty of places will rent you a barbell. We're here to make sure you actually know what to do with it — and that you keep coming back.</p>
+      <ul class="why-list">
+        <li>
+          <span class="ic">★</span>
+          <span class="txt"><strong>5-Star Rated By Our Members</strong><span>Perfect rating from the people who train here every week.</span></span>
+        </li>
+        <li>
+          <span class="ic">✓</span>
+          <span class="txt"><strong>Coaches Who Know Your Name</strong><span>Real experience, real attention — not a screen and a clipboard.</span></span>
+        </li>
+        <li>
+          <span class="ic">✓</span>
+          <span class="txt"><strong>A Community That Lifts You Up</strong><span>Students, athletes, parents and first-timers, all training side by side.</span></span>
+        </li>
+        <li>
+          <span class="ic">✓</span>
+          <span class="txt"><strong>Right Here in Zone 2, Libon</strong><span>Easy to reach, open late, and walk-ins are always welcome.</span></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ SOCIAL PROOF ══════════ -->
+<section class="proof">
+  <div class="proof-bg">
+    <img src="images/coach-talk.jpg" alt=""
+         onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1600&q=80';">
+  </div>
+  <div class="container reveal">
+    <div class="stars" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div>
+    <p class="rating-line">5.0 Rating · Verified Member Reviews</p>
+    <blockquote class="quote">
+      Z2WC changed my life. The coaches actually know what they're doing, the equipment is top-notch, and the community is unbelievably supportive. I've never felt stronger or more confident. Best gym in Albay, hands down.
+      <cite class="quote-author">
+        <span class="nm">Mc Anthony Epres</span>
+        <span class="rl">Member since 2023</span>
+      </cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ══════════ PRICING ══════════ -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Membership</span>
+      <div class="rule"></div>
+      <h2>Full Access. Pick Your Commitment.</h2>
+      <p>Every plan unlocks the same complete gym — the longer you commit, the less you pay per month.</p>
+    </div>
+
+    <div class="daypass reveal">
+      <div class="daypass-left">
+        <span class="dp-label">Just Passing Through?</span>
+        <span class="dp-title">Day Pass — Train for ₱40</span>
+      </div>
+      <p class="dp-copy">No membership, no sign-up. Walk in, pay ₱40, use everything for the day.</p>
+      <a href="#contact" class="btn btn-gold">Come Train Today</a>
+    </div>
+
+    <div class="pricing-grid">
+      <div class="plan reveal">
+        <h3>Monthly</h3>
+        <p class="tag">Flexible, no commitment</p>
+        <div class="price"><span class="amt">₱500</span><span class="per">/month</span></div>
+        <p class="save">Cancel any time</p>
+        <ul>
+          <li>Unlimited gym access</li>
+          <li>All equipment included</li>
+          <li>Free first-visit orientation</li>
+          <li>Open daily until 10 PM</li>
+        </ul>
+        <a href="#contact" class="btn btn-line btn-block">Start Monthly</a>
+      </div>
+
+      <div class="plan popular reveal d1">
+        <span class="plan-badge">★ Most Popular</span>
+        <h3>6 Months</h3>
+        <p class="tag">The sweet spot for real results</p>
+        <div class="price"><span class="amt">₱2,500</span><span class="per">/6 months</span></div>
+        <p class="save">Just ₱417/month — save ₱500</p>
+        <ul>
+          <li>Everything in Monthly</li>
+          <li>Rate locked for 6 months</li>
+          <li>Priority slots on group sessions</li>
+          <li>Free progress check-in</li>
+        </ul>
+        <a href="#contact" class="btn btn-gold btn-block">Get 6 Months</a>
+      </div>
+
+      <div class="plan reveal d2">
+        <h3>1 Year</h3>
+        <p class="tag">For the long haul</p>
+        <div class="price"><span class="amt">₱5,000</span><span class="per">/year</span></div>
+        <p class="save">Just ₱417/month — save ₱1,000</p>
+        <ul>
+          <li>Everything in 6 Months</li>
+          <li>Rate locked for a full year</li>
+          <li>Biggest total savings</li>
+          <li>Priority booking all year</li>
+        </ul>
+        <a href="#contact" class="btn btn-line btn-block">Go Annual</a>
+      </div>
+    </div>
+
+    <p class="pricing-note reveal">Not sure yet? Your <strong>first session is free</strong> — come train once before you pay anything.</p>
+  </div>
+</section>
+
+<!-- ══════════ CONTACT / BOOKING ══════════ -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Get Started</span>
+      <div class="rule"></div>
+      <h2>Book Your Free Trial Session</h2>
+      <p>Tell us a little about your goals and we'll text you back with a time. Or just call — we pick up.</p>
+    </div>
+
+    <div class="contact-wrap reveal d1">
+      <div class="form-side">
+        <h3>Reserve Your Spot</h3>
+        <p class="hint">We reply within one business day.</p>
+
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required />
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="phone">Phone / Viber</label>
+              <input type="tel" id="phone" name="phone" placeholder="0917 123 4567" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="juan@email.com" />
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="interest">I'm interested in</label>
+              <select id="interest" name="interest">
+                <option>Free trial session</option>
+                <option>Day pass (₱40)</option>
+                <option>Monthly membership (₱500)</option>
+                <option>6-month membership (₱2,500)</option>
+                <option>1-year membership (₱5,000)</option>
+                <option>Group training</option>
+                <option>Personal coaching</option>
+                <option>Student / group rates</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="preferred">Preferred time</label>
+              <select id="preferred" name="preferred_time">
+                <option>Morning (6 AM – 10 AM)</option>
+                <option>Afternoon (12 PM – 4 PM)</option>
+                <option>Evening (5 PM – 10 PM)</option>
+                <option>Weekends only</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Your goals <span style="font-weight:400;color:#8a919e">(optional)</span></label>
+            <textarea id="message" name="message" placeholder="e.g. I want to build muscle and I've never lifted before..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold btn-block">Book My Free Session</button>
+          <p class="form-fine">No payment required. No pressure. Just come train.</p>
+        </form>
+      </div>
+
+      <aside class="info-side">
+        <div>
+          <h3>Or Reach Us Directly</h3>
+        </div>
+
+        <a href="tel:+639672474952" class="call-now">
+          <span class="cl">Call or Text</span>
+          <span class="cn">0967 247 4952</span>
+        </a>
+
+        <div class="info-list">
+          <div class="info-item">
+            <span class="ic">📍</span>
+            <div><div class="t">Location</div><div class="d">Zone 2, Libon<br />4507 Albay, Philippines</div></div>
+          </div>
+          <div class="info-item">
+            <span class="ic">🕒</span>
+            <div><div class="t">Hours</div><div class="d">Open daily · Closes 10:00 PM</div></div>
+          </div>
+          <div class="info-item">
+            <span class="ic">✉️</span>
+            <div><div class="t">Email</div><div class="d"><a href="mailto:z2wcgym@gmail.com">z2wcgym@gmail.com</a></div></div>
+          </div>
+        </div>
+
+        <div class="walkin"><strong>Walk-ins welcome.</strong> Bring a towel, water and shoes — we'll handle the rest.</div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer>
+  <div class="container">
+    <div class="foot-top">
+      <a href="#top" class="logo" aria-label="Z2WC Gym home">
+        <span class="logo-mark">Z2</span>
+        <span class="logo-text">
+          <span class="name">Z2<em>WC</em></span>
+          <span class="sub">Gym · Libon</span>
+        </span>
+      </a>
+      <nav class="foot-links" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="foot-bottom">
+      <p>&copy; 2024 Z2WC Gym · Zone 2, Libon, 4507 Albay · <a href="tel:+639672474952" style="color:rgba(255,255,255,.6);text-decoration:none">0967 247 4952</a></p>
+      <p class="credit">Website designed by <a href="mailto:nathandev23@gmail.com">Jonathan Rosanes</a> · nathandev23@gmail.com</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+
+  /* ── Sticky header shadow ── */
+  var header = document.getElementById('siteHeader');
+  var onScroll = function(){
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  };
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ── Hamburger ── */
+  var burger = document.getElementById('hamburger');
+  var mnav   = document.getElementById('mobileNav');
+
+  burger.addEventListener('click', function(){
+    var open = mnav.classList.toggle('open');
+    burger.classList.toggle('active', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  mnav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      mnav.classList.remove('open');
+      burger.classList.remove('active');
+      burger.setAttribute('aria-expanded','false');
+    });
+  });
+
+  document.addEventListener('click', function(e){
+    if(!mnav.contains(e.target) && !burger.contains(e.target)){
+      mnav.classList.remove('open');
+      burger.classList.remove('active');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      mnav.classList.remove('open');
+      burger.classList.remove('active');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ── Scroll reveal ── */
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var items = document.querySelectorAll('.reveal');
+
+  if(reduced || !('IntersectionObserver' in window)){
+    items.forEach(function(el){ el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          en.target.classList.add('in');
+          io.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    items.forEach(function(el){ io.observe(el); });
+  }
+
+  /* ── Smooth anchor scroll with header offset ── */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = this.getAttribute('href');
+      if(id === '#' || id.length < 2) return;
+      var t = document.querySelector(id);
+      if(!t) return;
+      e.preventDefault();
+      var y = t.getBoundingClientRect().top + window.pageYOffset - (header.offsetHeight - 1);
+      window.scrollTo({top:y, behavior: reduced ? 'auto' : 'smooth'});
+    });
+  });
+})();
+</script>
+</body>
+</html>

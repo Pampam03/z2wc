@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <title>Z2WC Gym | Libon's Premier Fitness Destination — Zone 2, Albay</title>
-<meta name="description" content="Z2WC Gym in Zone 2, Libon, Albay. ₱40 day pass or ₱500/month unlimited access. Strength coaching, group training and personal programs. 5-star rated, open daily until 10 PM. Call 0967 247 4952." />
+<meta name="description" content="Z2WC Gym in Zone 2, Libon, Albay. ₱40 day pass or ₱500/month unlimited access. Strength coaching, group training and personal programs. 5-star rated, open daily until 10 PM. Call 0947 810 0912." />
 <meta name="keywords" content="gym Libon, fitness Albay, personal trainer Libon, gym near me Albay, Z2WC Gym, strength training Bicol" />
 <link rel="canonical" href="https://z2wcgym.com/" />
 
@@ -27,11 +27,11 @@
   "name": "Z2WC Gym",
   "description": "Premium gym, strength coaching and group fitness training in Zone 2, Libon, Albay.",
   "image": "images/hero-community.jpg",
-  "telephone": "+639672474952",
-  "email": "z2wcgym@gmail.com",
+  "telephone": "+639478100912",
+  "email": "gwinyyyy@gmail.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Zone 2",
+    "streetAddress": "Zone 2, West Carisac",
     "addressLocality": "Libon",
     "addressRegion": "Albay",
     "postalCode": "4507",
@@ -282,6 +282,64 @@ header.scrolled{background:rgba(10,22,51,.97);box-shadow:0 6px 30px rgba(0,0,0,.
   background:var(--gold);
 }
 
+/* ═══════════════ GALLERY ═══════════════ */
+.gallery{padding:96px 0;background:var(--navy);position:relative;overflow:hidden}
+.gallery .section-head h2{color:#fff}
+.gallery .section-head p{color:rgba(255,255,255,.66)}
+.gallery .rule{background:linear-gradient(90deg,var(--gold),var(--gold-hi))}
+
+.gal-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  grid-auto-rows:170px;gap:14px;
+}
+.gal-item{
+  position:relative;overflow:hidden;border-radius:12px;
+  background:var(--navy-2);border:1px solid rgba(255,255,255,.07);
+  cursor:pointer;
+}
+.gal-item img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform .6s cubic-bezier(.2,.8,.3,1),filter .4s;
+}
+.gal-item:hover img{transform:scale(1.07)}
+.gal-item::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 42%,rgba(10,22,51,.86));
+  opacity:.82;transition:opacity .35s;
+}
+.gal-item:hover::after{opacity:.95}
+.gal-cap{
+  position:absolute;left:0;right:0;bottom:0;z-index:2;
+  padding:14px 16px;display:flex;align-items:center;gap:8px;
+  transform:translateY(4px);opacity:.92;transition:transform .35s,opacity .35s;
+}
+.gal-item:hover .gal-cap{transform:none;opacity:1}
+.gal-cap span{
+  font-size:.83rem;font-weight:600;color:#fff;letter-spacing:.01em;line-height:1.3;
+}
+.gal-cap i{
+  flex:0 0 auto;width:6px;height:6px;border-radius:50%;
+  background:var(--gold);display:block;
+}
+.gal-item.wide{grid-column:span 2}
+.gal-item.tall{grid-row:span 2}
+
+.gal-foot{
+  margin-top:34px;display:flex;flex-wrap:wrap;align-items:center;
+  justify-content:center;gap:14px 26px;text-align:center;
+}
+.gal-foot p{color:rgba(255,255,255,.7);font-size:.97rem;margin:0}
+.gal-foot p strong{color:var(--gold-hi);font-weight:600}
+
+@media (max-width:900px){
+  .gal-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+  .gal-item.tall{grid-row:span 1}
+}
+@media (max-width:520px){
+  .gal-grid{grid-template-columns:1fr;grid-auto-rows:210px;gap:12px}
+  .gal-item.wide{grid-column:span 1}
+}
+
 /* ═══════════════ WHY US ═══════════════ */
 .why{padding:96px 0;background:var(--white)}
 .why-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:60px;align-items:center}
@@ -519,6 +577,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
     <nav class="desk-nav" aria-label="Primary">
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
       <a href="#why">Why Us</a>
       <a href="#pricing">Pricing</a>
       <a href="#contact">Contact</a>
@@ -528,6 +587,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
     <div class="mobile-nav" id="mobileNav">
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
       <a href="#why">Why Us</a>
       <a href="#pricing">Pricing</a>
       <a href="#contact">Contact</a>
@@ -544,7 +604,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
   </div>
   <div class="container">
     <div class="hero-copy">
-      <span class="eyebrow on-dark">Zone 2 · Libon · Albay</span>
+      <span class="eyebrow on-dark">Zone 2 · West Carisac · Libon</span>
       <h1>Train Like a <span class="gold">Champion</span> in Libon</h1>
       <p class="hero-sub">Premium equipment, coaching that actually pays attention, and a community that shows up for you — six days a week, until 10 PM.</p>
       <div class="hero-buttons">
@@ -682,6 +742,65 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
   </div>
 </section>
 
+<!-- ══════════ GALLERY ══════════ -->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow on-dark">Inside Z2WC</span>
+      <div class="rule"></div>
+      <h2>Take a Look Around</h2>
+      <p>Open-air training floor, full racks, cardio and free weights — from sunrise sessions to 10 PM lifts.</p>
+    </div>
+
+    <div class="gal-grid">
+      <figure class="gal-item wide tall reveal">
+        <img src="images/gallery-main-floor.jpg" alt="Main training floor at Z2WC Gym with benches, dumbbells and racks" loading="lazy" />
+        <figcaption class="gal-cap"><i></i><span>The main floor</span></figcaption>
+      </figure>
+
+      <figure class="gal-item reveal d1">
+        <img src="images/gallery-open-air.jpg" alt="Open-air dumbbell area with mirror and barbell rack" loading="lazy" />
+        <figcaption class="gal-cap"><i></i><span>Dumbbells &amp; mirrors</span></figcaption>
+      </figure>
+
+      <figure class="gal-item reveal d2">
+        <img src="images/gallery-functional.jpg" alt="Functional trainer and hyperextension bench overlooking greenery" loading="lazy" />
+        <figcaption class="gal-cap"><i></i><span>Functional trainer</span></figcaption>
+      </figure>
+
+      <figure class="gal-item reveal d1">
+        <img src="images/gallery-cable-crossover.jpg" alt="Cable crossover station with weight plates and spin bike" loading="lazy" />
+        <figcaption class="gal-cap"><i></i><span>Cable crossover</span></figcaption>
+      </figure>
+
+      <figure class="gal-item reveal d2">
+        <img src="images/gallery-cardio.jpg" alt="Treadmill, leg press and squat rack in the cardio corner" loading="lazy" />
+        <figcaption class="gal-cap"><i></i><span>Cardio &amp; leg press</span></figcaption>
+      </figure>
+
+      <figure class="gal-item wide reveal">
+        <img src="images/gallery-night-dumbbells.jpg" alt="Full dumbbell rack and benches during an evening session" loading="lazy" />
+        <figcaption class="gal-cap"><i></i><span>Evenings on the floor</span></figcaption>
+      </figure>
+
+      <figure class="gal-item reveal d1">
+        <img src="images/gallery-night-racks.jpg" alt="Power racks and machines lit up at night" loading="lazy" />
+        <figcaption class="gal-cap"><i></i><span>Racks after dark</span></figcaption>
+      </figure>
+
+      <figure class="gal-item reveal d2">
+        <img src="images/gallery-night-floor.jpg" alt="Wide view of the Z2WC training hall at night" loading="lazy" />
+        <figcaption class="gal-cap"><i></i><span>Open till 10 PM</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="gal-foot reveal">
+      <p>Everything you see is included — <strong>on every plan</strong>, from the ₱40 day pass up.</p>
+      <a href="#contact" class="btn btn-gold">Book a Free Look Around</a>
+    </div>
+  </div>
+</section>
+
 <!-- ══════════ WHY US ══════════ -->
 <section class="why" id="why">
   <div class="container why-grid">
@@ -720,7 +839,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
         </li>
         <li>
           <span class="ic">✓</span>
-          <span class="txt"><strong>Right Here in Zone 2, Libon</strong><span>Easy to reach, open late, and walk-ins are always welcome.</span></span>
+          <span class="txt"><strong>Right Here in West Carisac, Libon</strong><span>Easy to reach, open late, and walk-ins are always welcome.</span></span>
         </li>
       </ul>
     </div>
@@ -740,7 +859,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
       Z2WC changed my life. The coaches actually know what they're doing, the equipment is top-notch, and the community is unbelievably supportive. I've never felt stronger or more confident. Best gym in Albay, hands down.
       <cite class="quote-author">
         <span class="nm">Mc Anthony Epres</span>
-        <span class="rl">Member since 2023</span>
+        <span class="rl">Member since 2025</span>
       </cite>
     </blockquote>
   </div>
@@ -829,7 +948,10 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
         <h3>Reserve Your Spot</h3>
         <p class="hint">We reply within one business day.</p>
 
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form action="https://formsubmit.co/gwinyyyy@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Z2WC Gym inquiry from the website" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
           <div class="field">
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required />
@@ -886,15 +1008,15 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
           <h3>Or Reach Us Directly</h3>
         </div>
 
-        <a href="tel:+639672474952" class="call-now">
+        <a href="tel:+639478100912" class="call-now">
           <span class="cl">Call or Text</span>
-          <span class="cn">0967 247 4952</span>
+          <span class="cn">0947 810 0912</span>
         </a>
 
         <div class="info-list">
           <div class="info-item">
             <span class="ic">📍</span>
-            <div><div class="t">Location</div><div class="d">Zone 2, Libon<br />4507 Albay, Philippines</div></div>
+            <div><div class="t">Location</div><div class="d">Zone 2, West Carisac<br />Libon, 4507 Albay, Philippines</div></div>
           </div>
           <div class="info-item">
             <span class="ic">🕒</span>
@@ -902,7 +1024,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
           </div>
           <div class="info-item">
             <span class="ic">✉️</span>
-            <div><div class="t">Email</div><div class="d"><a href="mailto:z2wcgym@gmail.com">z2wcgym@gmail.com</a></div></div>
+            <div><div class="t">Email</div><div class="d"><a href="mailto:gwinyyyy@gmail.com">gwinyyyy@gmail.com</a></div></div>
           </div>
         </div>
 
@@ -926,14 +1048,15 @@ footer{background:var(--navy);color:rgba(255,255,255,.6);padding:54px 0 30px;bor
       <nav class="foot-links" aria-label="Footer">
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#why">Why Us</a>
+        <a href="#gallery">Gallery</a>
+      <a href="#why">Why Us</a>
         <a href="#pricing">Pricing</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
     <div class="foot-bottom">
-      <p>&copy; 2024 Z2WC Gym · Zone 2, Libon, 4507 Albay · <a href="tel:+639672474952" style="color:rgba(255,255,255,.6);text-decoration:none">0967 247 4952</a></p>
-      <p class="credit">Website designed by <a href="mailto:nathandev23@gmail.com">Jonathan Rosanes</a> · nathandev23@gmail.com</p>
+      <p>&copy; 2024 Z2WC Gym · Zone 2, West Carisac, Libon, 4507 Albay · <a href="tel:+639478100912" style="color:rgba(255,255,255,.6);text-decoration:none">0947 810 0912</a></p>
+      <p class="credit">Website designed by <a href="https://portfoliojonathanrosanes.netlify.app/" target="_blank" rel="noopener">Jonathan Rosanes</a></p>
     </div>
   </div>
 </footer>
